@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="main.xslt"?>
+
+<Aktywnosc>
+
+	<autor jezyk="polski">
+		<imie>Aleksandra</imie>
+		<nazwisko>Rykowska</nazwisko>
+	</autor>
+	
+	<strony>
+		<strona o="Moje hobby">
+			<tytul>Aktywność</tytul>
+			<tekst>
+				Witam na mojej stronie !
+				Możesz przeczytać tutaj o moim hobby, które nazwałam "Aktywność". Moje zainteresowania są dosyć róźnorodne i często się zmieniają, dlatego postanowiłam opisać parę z nich i połączyć w jedno. Moja działalność dzieli się na sport, muzyke i wolontariat. Brałam udział też np. w występach, chodziłam do kółka teatralnego i interesował mnie taniec, ale był to na tyle krótki epizod, że skupię się na głównych elementach :). Wszystkie te rzeczy towarzyły mi na pewnych etapach mojego życia, a teraz podzielę się nimi tutaj na stronie.
+				Zapraszam !
+			</tekst>
+		</strona>
+		
+		<strona o="Sport">
+			<tytul>Sport</tytul>
+			<tekst na_temat="Narty">
+				Na nartach jeździłam co ferie, z małymi przerwami, odkąd miałam parenaście lat z moim obozem na Kubiesówke. Poznałam tam mnóstwo ludzi i bardzo dobrze wpominam ten czas. Co wieczór graliśmy w różne gry obozowe, rano jechaliśmy na stok, przez pare godzin zjeżdżaliśmy, a potem wspinaliśmy się do naszego domku. Jazdę na nartach polecam każdemu kto jeszcze nie próbował, bo wrażenia są niezapomniane.
+			</tekst>
+			<tekst na_temat="Snowboard">
+				Na snowbordzie zaczęłam się uczyć jeździć od niedawna, rok po nartach i dopiero przez jedne ferie. Mimo, że upadki są bardziej bolesne i jest więcej siniaków to kiedy już się załapie sposób jeżdżenia to jest to bardzo ciekawe doświadczenie i myślę, że chciałabym w przyszłości kontynuować nauke dalej.
+			</tekst>
+			<tekst na_temat="Łyżwy">
+				Uwielbiam również bardzo jeździć na łyżwach. Uczyłam się na nich pierwszy raz jeździć w podstawówce i od tego momentu jak mam okazję wspólnie ze znajomymi wychodzimy wspólnie pojeździć :)
+			</tekst>
+			<tekst na_temat="Rolki">
+				Dzięki temu, że nauczyłam się jeździć dobrze na łyżwach, polubiłam bardzo jeźdżenie na rolkach. Brałam nawet udział z moją koleżanką w wydarzeniach, gdzie duża grupa ludzi jeździła razem przez miasto po ulicach na specjalnie wyznaczonych trasach.
+			</tekst>
+			<tekst na_temat="Rower">
+				Nie mogło też zabraknąć jeżdżenia na rowerze. Jest to idealne zajęcie na wolny, słoneczny dzień, kiedy można się trochę odprężyć i nie myśleć o innych sprawach. A najlepiej się jeździ razem :)
+			</tekst>
+			<tekst na_temat="Ćwiczenia_i_rozciąganie">
+				Od momentu gdy zaczęła się pandemia i nie można było wychodzić, uznałam, że jest to idealny czas na ćwiczenia we własnym domu. Znajdywałam wtedy plan ćwiczeń według, którego postępowałam, a potem dołożyłam do tego rozciąganie, które bardzo pomagało, kiedy przez dłuższy czas siedziało się przy komputerze i uczyło.
+			</tekst>
+			<tekst na_temat="Inne">
+				Na pewno było jeszcze wiele innych dziedzin sportu, które uprawiałam, np. basen, golf i tym podobne, ale są to raczej poboczne hobby, a najważniejsze wypisałam wyżej :) 
+			</tekst>
+		</strona>
+		
+		<strona o="Muzyka">
+			<tytul>Muzyka</tytul>
+			<tekst na_temat="Ogólne">
+				Kolejnym z moich zainteresowań jest muzyka, która interesowała mnie od zawsze, ponieważ uwielbiam śpiewać, poznawać nowe piosenki i jestem otwarta na wiele gatunków. Mogę jej słychać gdy mi smutno, źle, kiedy pracuję, dosłownie w każdym momencie i dzięki niej czuję się lepiej. Jednak wszystko się zaczęło od gitary.
+			</tekst>
+			<tekst na_temat="Gitara">
+					Kiedy miałam może parenaście lat dostałam na święta gitarę. Na początku oczywiście nie potrafiłam grać. Przez dłuższy czas korzystał z niej bardziej tata, jednak w gimnazjum miałam okazję zacząć. Uczyliśmy się przez rok grać na gitarze na lekcji muzyki, a pod koniec ostatnią piosenką do zagrania i zaśpiewania na raz była "Ostatnia nocka" Yugopolis and Maciej Maleńczuk. Nie zostałam wtedy nagrana, ale brzmiało to mniej więcej tak: Ostatnia nocka na gitarze . Niestety poźniej nie miałam za bardzo czasu kontynuować naukę, ale rozważam powrót i próbę grania na nowo.
+			</tekst>
+			<tekst na_temat="Ukulele">
+					Następnym instrumentem, który bardzo mnie ciekawił było ukulele. Zawsze podobało mi się to jakie jest ono proste i jak ładnie potrafi brzmieć. Nie miałam niestety wcześniej tego instrumentu, aż do momentu pożyczenia go na studiach. Uwierzyłam w możliwość szybkiej nauki na nim, dzięki temu filmikowi: 20h z Ukulele i zamierzam spełnić ten cel :)
+			</tekst>
+		</strona>
+		
+		<strona o="Wolontariat">
+			<tytul>Wolontariat</tytul>
+			<tekst na_temat="Ogólne">
+				Jako ostatnie zainteresowanie opowiem o moim udziale w wolontariacie.
+			</tekst>
+			<tekst na_temat="Dziewczynka_z_zapałkami">
+					Był to jeden z moich pierwszych wolontariatów w gimnazjum, od którego mogła nawet się zacząć moja prygoda z pomaganiem. Polegało ono na tym, że przychodziłam do jednego z większych sklepów, pomagałam pakować ludzią zakupy, a w zamian dawałam im zapałkę.
+			</tekst>
+			<tekst na_temat="Run_Toruń">
+					W Run Toruń brałam udział parę razy jaka wolontariuszka i zajmowałam się różnymi rzeczami. Raz ustawiałam pachołki i oznaczałam trasę, innym razem przygotowywałam stoiska, jeszcze innym trzymałam wodę dla biegaczy, nakładałam im medale na szyje i wiele wiele innych, ale za każdym razem towarzyszyła mi radość z pomocy i udzielania się społecznie. W tym roku tak wyglądał bieg: Run Toruń 2020
+			</tekst>
+			<tekst na_temat="Szukanie_dawcy_szpiku">
+					Gdy postanowiłam przyłączyć się w liceum do pomocy nie byłam pełnoletnia, więc nie mogłam wykonywać ważniejszych zadań, ale miałam swój mały udział i roznosiłam po galerii handlowej ulotki i balony, opowiadając o akcji szukania dawcy szpiku dla kolegi, Jarka. Nie zawsze udawało się przekonywać ludzi do pomocy, ale zawsze było warto próbować, ponieważ ostatecznie udało się znaleźć dawcę :) Dlatego cieszę się, że miałam w tym swój udział.
+			</tekst>
+			<tekst na_temat="Wyprowadzanie_psów_ze_schroniska">
+					W pewnym momencie razem z moją przyjaciółką postanowiłyśmy razem pomóc w schronisku i miałyśmy okazję wyprowadzać psy, które zostały porzucone i przywiązane do drzewa. Szczeniaki były bardzo wychudzone, ale miały energię, żeby wyjść na spacer. Ich widoczne szczęście z tego chwilowego wyjścia było niezapomniane.
+			</tekst>
+		</strona>
+		
+		<strona o="Ankieta">
+			<tytul>Ankieta</tytul>
+			<tekst>
+				A teraz chciałabym się dowiedzieć coś o tobie :) Zachęcam do wypełnienia poniższej ankiety
+				Dzisiejsza data:
+				Imię:
+				Nazwisko:
+				Płeć:
+				* Mężczyzna
+				* Kobieta
+				Czy masz hobby ?
+				* Tak
+				* Nie
+				Jeśli tak, ile czasu na nie poświęcasz ?
+				Jakie masz hobby ?
+				* Sport
+				* Książki
+				* Motoryzacja
+				* Muzyka
+				* Moda
+				* Fotografia
+				* Malarstwo
+				* Gry
+				* Szydełkowanie
+				* Inne
+				Dodatkowy komentarz o zainteresowaniach:
+			</tekst>
+		</strona>
+	</strony>
+   
+	<zdjecia>
+		<obraz rodzaj="śnieżynki" src="Galeria/snowflakes.svg">śnieżynki</obraz>
+		<obraz rodzaj="narty" src="Galeria/narty1.jpg">narty</obraz>
+		<obraz rodzaj="narty" src="Galeria/narty2.jpg">narty</obraz>
+		<obraz rodzaj="snowboard" src="Galeria/snowboard1.jpg">snowboard</obraz>
+		<obraz rodzaj="snowboard" src="Galeria/snowboard2.jpg">snowboard</obraz>
+		<obraz rodzaj="łyżwy" src="Galeria/lyzwy1.jpg">łyżwy</obraz>
+		<obraz rodzaj="łyżwy" src="Galeria/lyzwy2.jpg">łyżwy</obraz>
+		<obraz rodzaj="rower" src="Galeria/bike.gif">rower</obraz>
+	</zdjecia>
+	
+	<linki>
+		<link src="https://www.youtube.com/watch?v=xUZFsxJ-4YY">Ostatnia nocka na gitarze</link>
+		<link src="https://youtu.be/5MgBikgcWnY?t=892">20h z Ukulele</link>
+		<link src="https://www.youtube.com/watch?v=2tnM_hX4fS0">Run Toruń 2020</link>
+		<link src="https://www.youtube.com/watch?v=lJUIDBBqJOE">30 MIN FULL BODY STRETCHING</link>
+	</linki>
+	
+	<ciekawostki>
+		<ciekawostka>
+			<pytanie>Czy masz hobby ?</pytanie>
+				<dane>
+					<odpowiedz>Tak</odpowiedz>
+					<procenty>45%</procenty>
+					
+					<odpowiedz>Nie</odpowiedz>
+					<procenty>23%</procenty>
+	
+					<odpowiedz>Trudno powiedzieć</odpowiedz>
+					<procenty>21%</procenty>
+	
+					<odpowiedz>Nie mam hobby</odpowiedz>
+					<procenty>11%</procenty>
+				</dane>
+		</ciekawostka>
+		<ciekawostka>
+			<pytanie>Ile czasu poświęcasz na hobby ?</pytanie>
+				<dane>
+					<odpowiedz>Za dużo</odpowiedz>
+					<procenty>10%</procenty>
+					
+					<odpowiedz>W sam raz</odpowiedz>
+					<procenty>49%</procenty>
+	
+					<odpowiedz>Za mało</odpowiedz>
+					<procenty>33%</procenty>
+	
+					<odpowiedz>Trudno powiedzieć</odpowiedz>
+					<procenty>8%</procenty>
+				</dane>
+		</ciekawostka>
+	</ciekawostki>
+
+</Aktywnosc>
