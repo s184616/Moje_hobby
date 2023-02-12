@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8"/>
+      <title>Moje Hobby - Aktywność</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+   <body>
+		<div id="wrapper">
+			<header>
+				<h1 class="center">Ankieta</h1>
+			</header>
+
+			<div id="content"> 
+				<h3> A teraz chciałabym się dowiedzieć coś o tobie :) Zachęcam do wypełnienia poniższej ankiety</h3>
+				<br>
+				<form action="#">
+					<label class="right"> Dzisiejsza data <input type="date" name="dzien"></label>
+					<label for="fname">Imię:</label>
+						<input type="text" id="fname" name="fname"><br><br>
+					<label for="lname">Nazwisko:</label>
+						<input type="text" id="lname" name="lname"><br><br>
+					<h4>Płeć:</h4>
+					<input type="radio" id="male" name="gender" value="1">
+						<label for="male">Mężczyzna</label><br>
+					<input type="radio" id="female" name="gender" value="2">
+						<label for="female">Kobieta</label>
+					<br><br>
+					<h4>Czy masz hobby ?</h4>
+					<input type="radio" id="tak" name="czas" value="1">
+						<label for="tak">Tak</label><br>
+					<input type="radio" id="nie" name="czas" value="2">
+						<label for="nie">Nie</label>
+					<br><br>
+					<h4>Jeśli tak, ile czasu dziennie na nie poświęcasz ?</h4>
+					<label><input type="time" name="czas"></label>
+					<br><br>
+					<h4> Jakie masz hobby ? </h4>
+					<label><input type="checkbox" name="hobby" value="1"> Sport </label><br>
+					<label><input type="checkbox" name="hobby" value="2"> Książki </label><br>
+					<label><input type="checkbox" name="hobby" value="3"> Motoryzacja </label><br>
+					<label><input type="checkbox" name="hobby" value="4"> Muzyka </label><br>
+					<label><input type="checkbox" name="hobby" value="5"> Moda </label><br>
+					<label><input type="checkbox" name="hobby" value="6"> Fotografia </label><br>
+					<label><input type="checkbox" name="hobby" value="7"> Malarstwo </label><br>
+					<label><input type="checkbox" name="hobby" value="8"> Gry </label><br>
+					<label><input type="checkbox" name="hobby" value="9"> Szydełkowanie </label><br>
+					<label><input type="checkbox" name="hobby" value="10"> Inne </label><br>
+					<h3>Dodatkowy komentarz o zainteresowaniach:</h3>
+					<textarea  id="komentarz" name="komentarz" rows="5" cols="70"></textarea>
+					<br><br><br>
+					<input type="submit" value="Wyślij">
+					<input type="reset" value="Reset">
+				</form>
+				<p>
+					<br>
+					<br>
+					<a href="#top" class="right">Idź na górę strony</a>
+				</p>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="Aktywnosc.html">Aktywność</a></li>
+					<li><a href="Ciekawostka.html">Ciekawostka</a></li>
+					<li><a class="active" href="Ankieta.html">Ankieta</a></li>
+				</ul> 
+			</nav>
+		</div>
+		<footer> Copyright 2020, Aleksandra Rykowska </footer>
+
+	</body>
+</html>

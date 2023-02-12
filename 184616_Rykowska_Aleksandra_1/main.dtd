@@ -1,0 +1,33 @@
+<!ELEMENT Aktywnosc (autor, strony, zdjecia, linki, tabele)>
+
+<!ELEMENT autor (imie, nazwisko)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ATTLIST autor jezyk CDATA #FIXED "polski">
+<!ENTITY imie "Aleksandra">
+<!ENTITY nazwisko SYSTEM "nazwisko.xml">
+
+<!ELEMENT strony (strona+)>
+<!ELEMENT strona (tytul | tekst)*>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT tekst (#PCDATA)>
+<!ATTLIST strona o (Moje_hobby | Sport | Muzyka | Wolontariat | Ankieta) #REQUIRED>
+
+<!ENTITY % src "src CDATA #REQUIRED">
+
+<!ELEMENT zdjecia (obraz+)>
+<!ELEMENT obraz (#PCDATA)>
+<!ATTLIST obraz rodzaj (śnieżynki | narty | snowboard | łyżwy | rower) #REQUIRED>
+<!ATTLIST obraz %src;>
+
+<!ELEMENT linki (link+)>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link %src;>
+
+<!ELEMENT tabele (tabela+)>
+<!ELEMENT tabela (wiersz+)>
+<!ELEMENT wiersz (kolumna+)>
+<!ELEMENT kolumna (#PCDATA)>
+<!ATTLIST tabela id CDATA #REQUIRED>
+<!ATTLIST tabela wiersze CDATA #REQUIRED>
+<!ATTLIST tabela kolumny CDATA #REQUIRED>

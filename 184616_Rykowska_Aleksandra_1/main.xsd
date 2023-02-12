@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	
+	<xs:element name="Aktywnosc" >
+		<xs:complexType >
+			<xs:sequence>
+				<xs:element ref="autor"/>
+				<xs:element name="strony" type="stronyType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="zdjecia" type="zdjeciaType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="linki" type="linkiType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="tabele" type="tabeleType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="autor" type="autorType" />
+	<xs:complexType name="autorType">
+		<xs:sequence>
+			<xs:element name="imie" type="shortStringType" />
+			<xs:element name="nazwisko" type="longStringType" />
+		</xs:sequence>
+		<xs:attribute ref="jezyk"/>
+	</xs:complexType>
+	
+		<xs:simpleType name="shortStringType">
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="30"/>
+			</xs:restriction>
+		</xs:simpleType>
+		<xs:simpleType name="longStringType">
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+		
+		<xs:attribute name="jezyk" default="PL">
+			<xs:simpleType>
+				<xs:union memberTypes="jezykType shortStringType" />
+			</xs:simpleType>
+		</xs:attribute>
+			
+		<xs:simpleType name="jezykType">
+			<xs:restriction base="xs:string">
+				<xs:pattern value="([A-Z])*" />
+			</xs:restriction>
+		</xs:simpleType>
+			
+			
+	<xs:complexType name="stronyType">
+		<xs:sequence>
+			<xs:element ref="strona" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+		<xs:element name="strona">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element ref="tytul" />
+					<xs:element ref="tekst" />
+				</xs:sequence>
+			<xs:attribute ref="o"/>
+			</xs:complexType>
+		</xs:element>
+		
+		<xs:element name="tytul" >
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="5"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+
+		<xs:element name="tekst">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="15"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		
+		<xs:attribute name="o" type="oType"/>
+		
+		<xs:simpleType name="oType">
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Moje hobby" />
+				<xs:enumeration value="Sport" />
+				<xs:enumeration value="Muzyka" />
+				<xs:enumeration value="Wolontariat" />
+				<xs:enumeration value="Ankieta" />
+			</xs:restriction>
+		</xs:simpleType>
+	
+	
+	<xs:complexType name="zdjeciaType">
+		<xs:sequence>
+			<xs:element ref="obraz" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="obraz" type="obrazType" />
+	
+		<xs:complexType name="obrazType">
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="rodzaj" type="xs:string"/>
+					<xs:attribute ref="src"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+		
+		<xs:attribute name="src" type="xs:anyURI"/>
+	
+	
+	<xs:complexType name="linkiType">
+		<xs:sequence>
+			<xs:element ref="link" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+		<xs:element name="link" >
+			<xs:complexType >
+				<xs:simpleContent>
+					<xs:extension base="xs:string">
+						<xs:attribute ref="src"/>
+					</xs:extension>
+				</xs:simpleContent>
+			</xs:complexType>
+		</xs:element>
+	
+	
+	<xs:complexType name="tabeleType">
+		<xs:sequence>
+			<xs:element name="tabela" type="tabelaType" minOccurs="0" maxOccurs="100" />
+		</xs:sequence>
+	</xs:complexType>
+	
+		<xs:complexType name="tabelaType">
+			<xs:sequence>
+				<xs:element name="wiersz" minOccurs="0" maxOccurs="100">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="kolumna" type="xs:string" minOccurs="0" maxOccurs="100" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attributeGroup ref="tabela"/>
+		</xs:complexType>
+
+		<xs:attributeGroup name="tabela">
+  			<xs:attribute name="id" type="xs:byte" />
+			<xs:attribute name="wiersze" type="iloscType" />
+			<xs:attribute name="kolumny" type="iloscType" />
+		</xs:attributeGroup>
+
+		
+		<xs:simpleType name="iloscType">
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="100"/>
+			</xs:restriction>
+		</xs:simpleType>
+		
+</xs:schema>
